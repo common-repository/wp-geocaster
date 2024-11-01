@@ -1,0 +1,174 @@
+/*CSS FOR BACKEND*/
+
+.sasuccess{
+	border:1px solid #95d493;
+	background:#cbedcb;
+	color:#4b704a;
+	padding:5px 10px;
+	text-shadow:0 1px #eafde9;
+	
+	box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:20px 20px 0 0;
+}
+
+.saerror{
+	border:1px solid #d78e8e;
+	background:#fcd0d0;
+	color:#964040;
+	padding:5px 10px;
+	text-shadow:0 1px #fcebeb;
+	
+	box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-moz-box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	-webkit-box-shadow:0 3px 3px rgba(244, 244, 244, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	margin:20px 20px 0 0;
+}
+
+form.wrap input{
+	padding:5px;
+}
+
+form.wrap select{
+	height:28px;
+}
+
+/*CSS FOR FRONTEND*/
+.sa_search{
+	overflow:hidden;
+}
+
+.sa_search input.textbox{	 
+    border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	
+    font-family: inherit;
+    padding: 6px 10px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	height:20px;
+	margin: 0 4px 3% 0;
+    width: 375px;
+}
+
+
+.sa_search #sa_submit{
+    background-color: #E6E6E6;
+    background-image: -moz-linear-gradient(center top , #F4F4F4, #E6E6E6);
+    background-repeat: repeat-x;
+    border: 1px solid #D2D2D2;    
+    color: #7C7C7C;
+    font-size: 0.785714rem;
+	float:left;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 6px 0.714286rem;
+	margin: 0 4px 3% 0;
+	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;\
+	
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+	-moz-box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+	-webkit-box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+	cursor:pointer;
+}
+
+.sa_search .button{	
+	background: -moz-linear-gradient(center top , #41B0D7 0%, #3286C1 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #3287c1;    
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 0.785714rem;
+    line-height: 18px;
+    margin-right: 10px;
+    padding: 6px 0.714286rem;
+	text-decoration:none;
+	float:left;
+	margin: 0 4px 3% 0;
+	
+	box-shadow:0 1px 2px rgba(64, 64, 64, 0.2);
+	-moz-box-shadow:0 1px 2px rgba(64, 64, 64, 0.2);
+	-webkit-box-shadow:0 1px 2px rgba(64, 64, 64, 0.2);
+	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+
+.sa_labelholder{
+	float:left;
+	width:30%;
+	margin-right:5%;
+	margin-bottom:2%;
+}
+
+.sa_inputholder{
+	float:left;
+	width:65%;
+	margin-bottom:2%;
+}
+
+.sa_inputholder select,
+.sa_inputholder input{
+	border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;    
+    color: #666666;
+	padding:6px 5px;
+	width:300px;
+	
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.sa_inputholder select{
+	width:310px;
+}
+
+.clear{
+	clear:both;
+}
+
+.sa_country{
+	-moz-column-count: 3;
+    -moz-column-gap: 15px;
+}
+
+.sa_country .sa_ctitle{
+	margin:0 !important;
+	padding:0;
+	color:#000;
+	font-size:16px;
+	font-weight:bold;
+}
+
+ul.sa-citylist{
+	margin:0 0 20px;
+	padding:0;
+	color:#000;
+}
+
+ul.sa-citylist li{
+	list-style:none;
+	margin:0 0 5px 10px;
+	font-size:13px;
+	padding:0;
+}
+
+ul.sa-citylist a{
+	text-decoration:none;
+}
+
